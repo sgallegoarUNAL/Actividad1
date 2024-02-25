@@ -1,0 +1,18 @@
+package primertaller.ejercicio12;
+
+public class Ejercicio12 {
+
+    public static void main(String[] args) {
+        double horas_trabajo, razon_hora, retencion, s_bruto, s_neto;
+        razon_hora = 5000;
+        horas_trabajo = 48;
+        s_bruto = horas_trabajo * razon_hora;
+        retencion = s_bruto * (0.125);
+        s_neto = s_bruto - retencion;
+        System.out.println("Horas trabajadas: " + horas_trabajo);
+        System.out.println("Retencion: " +retencion);
+        System.out.println("Valor de la hora: " + razon_hora);
+        System.out.println("Salario bruto: " + s_bruto);
+        System.out.println("Salario neto: " + s_neto);
+    }
+}
