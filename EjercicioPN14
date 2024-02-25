@@ -1,0 +1,14 @@
+package primertaller.ejercicio14;
+
+public class Ejercicio14 {
+
+    public static void main(String[] args) {
+        double x, y, z;
+        x = 9;
+        y = Math.pow(x, 2);
+        z = Math.pow(x, 3);
+        System.out.println("El numero es: " + x);
+        System.out.println("Su cuadrado es: " + y);
+        System.out.println("Su cubo es: " + z);
+    }
+}
